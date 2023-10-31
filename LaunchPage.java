@@ -44,7 +44,7 @@ public class LaunchPage implements ActionListener{
 		frame.add(labelPlayer);
 		  
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setTitle("Tik Tak Toe");
+		frame.setTitle("JavaTicTacToe");
 		frame.getContentPane().setBackground(Color.decode("#AAFFFF"));
 		frame.setSize(220,270);
 		frame.setLayout(null);
@@ -139,7 +139,7 @@ public class LaunchPage implements ActionListener{
 		
 	}
 	private static String ticked(int n, String[] matrix, JLabel labelPlayer2) {
-		System.out.println(matrix[0]+ matrix[1]+matrix[2]+matrix[3]+matrix[4]+matrix[5]+matrix[6]+matrix[7]+matrix[8]);
+		//System.out.println(matrix[0]+ matrix[1]+matrix[2]+matrix[3]+matrix[4]+matrix[5]+matrix[6]+matrix[7]+matrix[8]);
 		
 		if (matrix[n]!= "x" && matrix[n] != "o" ) {
 			
@@ -158,7 +158,7 @@ public class LaunchPage implements ActionListener{
 			}
 				
 		}
-		System.out.println(matrix[0]+ matrix[1]+matrix[2]+matrix[3]+matrix[4]+matrix[5]+matrix[6]+matrix[7]+matrix[8]);
+		//System.out.println(matrix[0]+ matrix[1]+matrix[2]+matrix[3]+matrix[4]+matrix[5]+matrix[6]+matrix[7]+matrix[8]);
 		return matrix[n];
 		
 	}
