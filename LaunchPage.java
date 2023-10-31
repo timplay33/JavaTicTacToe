@@ -59,28 +59,26 @@ public class LaunchPage implements ActionListener{
 		frame.add(x);
 	}
 
-	@SuppressWarnings("deprecation")
-	@Override
 	public void actionPerformed(ActionEvent z) {
 		if (CheckWin() == false) {
 			if (z.getSource()== a) {
-				a.setLabel(ticked(0, matrix,labelPlayer));
+				a.setText(ticked(0, matrix,labelPlayer));
 			}else if(z.getSource()==b) {
-				b.setLabel(ticked(1, matrix, labelPlayer));
+				b.setText(ticked(1, matrix, labelPlayer));
 			}else if(z.getSource()==c) {
-				c.setLabel(ticked(2, matrix,labelPlayer));
+				c.setText(ticked(2, matrix,labelPlayer));
 			}else if(z.getSource()==d) {
-				d.setLabel(ticked(3, matrix,labelPlayer));
+				d.setText(ticked(3, matrix,labelPlayer));
 			}else if(z.getSource()==e) {
-				e.setLabel(ticked(4, matrix,labelPlayer));
+				e.setText(ticked(4, matrix,labelPlayer));
 			}else if(z.getSource()==f) {
-				f.setLabel(ticked(5, matrix,labelPlayer));
+				f.setText(ticked(5, matrix,labelPlayer));
 			}else if(z.getSource()==g) {
-				g.setLabel(ticked(6, matrix,labelPlayer));
+				g.setText(ticked(6, matrix,labelPlayer));
 			}else if(z.getSource()==h) {
-				h.setLabel(ticked(7, matrix,labelPlayer));
+				h.setText(ticked(7, matrix,labelPlayer));
 			}else if(z.getSource()==i) {
-				i.setLabel(ticked(8, matrix,labelPlayer));
+				i.setText(ticked(8, matrix,labelPlayer));
 			}
 			CheckWin();
 		}
